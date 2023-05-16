@@ -49,8 +49,7 @@ class DoublyLinkedList:
             current = current.next
 
         return count
-    
-    
+
 
     def insert_at_begining(self, data):
         if self.head == None:
