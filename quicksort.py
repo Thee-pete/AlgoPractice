@@ -9,4 +9,6 @@ def quicksort(arr):
         return quicksort(less)+[pivot]+quicksort(greater)
     
 ans =quicksort([7,5,4,3,2])
+
+
 print(ans)
